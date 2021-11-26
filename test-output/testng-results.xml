@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="9" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-24T14:59:16 IST" name="OrangeHRM" finished-at="2021-11-24T14:59:16 IST" duration-ms="102">
+    <groups>
+      <group name="smoke">
+        <method signature="MobileTesting.mobileLogin()[pri:0, instance:TestNG.MobileTesting@9225652]" name="mobileLogin" class="TestNG.MobileTesting"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-11-24T14:59:16 IST" name="Mobile Testing" finished-at="2021-11-24T14:59:16 IST" duration-ms="83">
+      <class name="TestNG.MobileTesting">
+        <test-method signature="mobileLogin()[pri:0, instance:TestNG.MobileTesting@9225652]" started-at="2021-11-24T14:59:16 IST" name="mobileLogin" finished-at="2021-11-24T14:59:16 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLogin -->
+        <test-method signature="sendmobilerequest()[pri:0, instance:TestNG.MobileTesting@9225652]" started-at="2021-11-24T14:59:16 IST" name="sendmobilerequest" finished-at="2021-11-24T14:59:16 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendmobilerequest -->
+      </class> <!-- TestNG.MobileTesting -->
+    </test> <!-- Mobile Testing -->
+    <test started-at="2021-11-24T14:59:16 IST" name="Test" finished-at="2021-11-24T14:59:16 IST" duration-ms="102">
+      <class name="TestNG.WebTesting">
+        <test-method is-config="true" signature="moreConfig()[pri:0, instance:TestNG.WebTesting@4ddced80]" started-at="2021-11-24T14:59:16 IST" name="moreConfig" finished-at="2021-11-24T14:59:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moreConfig -->
+        <test-method signature="SendRequest()[pri:0, instance:TestNG.WebTesting@4ddced80]" started-at="2021-11-24T14:59:16 IST" name="SendRequest" finished-at="2021-11-24T14:59:16 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendRequest -->
+      </class> <!-- TestNG.WebTesting -->
+      <class name="TestNG.TestNGDemo">
+        <test-method is-config="true" signature="DoingConfiguration()[pri:0, instance:TestNG.TestNGDemo@48aaecc3]" started-at="2021-11-24T14:59:16 IST" name="DoingConfiguration" finished-at="2021-11-24T14:59:16 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoingConfiguration -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNG.TestNGDemo@48aaecc3]" started-at="2021-11-24T14:59:16 IST" name="setUp" finished-at="2021-11-24T14:59:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateHomePage()[pri:2, instance:TestNG.TestNGDemo@48aaecc3]" started-at="2021-11-24T14:59:16 IST" name="validateHomePage" finished-at="2021-11-24T14:59:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG.TestNGDemo@48aaecc3]" started-at="2021-11-24T14:59:16 IST" name="tearDown" finished-at="2021-11-24T14:59:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNG.TestNGDemo@48aaecc3]" started-at="2021-11-24T14:59:16 IST" name="setUp" finished-at="2021-11-24T14:59:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="resetPassword()[pri:3, instance:TestNG.TestNGDemo@48aaecc3]" started-at="2021-11-24T14:59:16 IST" name="resetPassword" finished-at="2021-11-24T14:59:16 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG.TestNGDemo@48aaecc3]" started-at="2021-11-24T14:59:16 IST" name="tearDown" finished-at="2021-11-24T14:59:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNG.TestNGDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- OrangeHRM -->
+</testng-results>
